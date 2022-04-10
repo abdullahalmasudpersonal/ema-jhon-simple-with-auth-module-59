@@ -1,0 +1,86 @@
+.form-container {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 20px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    box-shadow: -8px 10px 5px 0px rgba(255, 208, 108, 0.75);
+}
+
+.form-title {
+    font-size: 35px;
+    color: rebeccapurple;
+    font-weight: 400;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-left: 5px;
+}
+
+.input-group input {
+    width: 415px;
+    height: 55px;
+    border: 1px solid rgb(8, 14, 95);
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 24px;
+    padding-left: 5px;
+}
+
+.form-submit {
+    width: 415px;
+    height: 55px;
+    background-color: rgb(238, 193, 110);
+    border-radius: 8px;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+}
+.form-submit:hover{
+    background-color: rgb(250, 164, 5);
+}
+
+.form-link {
+    color: rgb(223, 121, 6);
+    text-decoration: none;
+}
+
+.or {
+    display: flex;
+    align-items: center;
+}
+
+.or hr {
+    width: 42%;
+    height: 0px;
+}
+
+button {
+    border: 1px solid rgb(136, 138, 139);
+    width: 100%;
+    height: 50px;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(255, 242, 226);
+}
+
+button img {
+    width: 30px;
+    height: 30px;
+}
