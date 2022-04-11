@@ -41,13 +41,8 @@ const SignUp = () => {
         }
 
         createUserWithEmailAndPassword(email, password);
-
-   /*      createUserWithEmailAndPassword(email,password)
-        .then(result =>{
-          //  const user = result.user;
-            console.log('user created');
-        }); */
     }
+
     return (
         <div className='form-container'>
             <div>
@@ -77,7 +72,7 @@ const SignUp = () => {
                     <hr />
                 </div>
 
-                <button>
+                <button className='btn'>
                     <img src='https://cdn-icons-png.flaticon.com/512/2991/2991148.png' alt='' /> &nbsp;
                     <p>Continue with google</p>
                 </button>
